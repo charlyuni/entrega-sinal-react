@@ -1,12 +1,12 @@
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import useCartContext from "../store/CartContext";
+import useCartContext from "../../store/CartContext";
 
 function CartWidget() {
   const {cantInCart, calcPriceCart} = useCartContext();
     return (
 
-        <div className="flex-none">
+        <div className="flex-none mr-5">
     <div className="dropdown dropdown-end">
       <label tabIndex="0" className="btn btn-ghost btn-circle">
         <div className="indicator">

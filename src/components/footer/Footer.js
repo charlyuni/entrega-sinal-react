@@ -1,4 +1,6 @@
-<footer className="footer p-10 bg-base-300 text-base-content">
+function Footer() {
+  return (
+    <footer className="footer p-10 bg-base-300 text-base-content mt-5">
     <div>
       <span className="footer-title">Services</span> 
       <a className="link link-hover">Branding</a> 
@@ -22,3 +24,6 @@
       </div>
     </div>
   </footer>
+  )
+}
+export default Footer

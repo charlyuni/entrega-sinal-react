@@ -48,8 +48,23 @@ const infoBuyer = () => {
 
 
 if (cart.length === 0){
-  return <div>
-    <h4>No hay items en en el carrito</h4>
+  return <div className=" ">
+<div className="flex m-4">
+  <div className="flex-none w-1/3 h-14">
+  </div>
+  <div className="grow h-14">
+  <div className="alert alert-success shadow-lg justify-center">
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current flex-shrink-0 h-6 w-6 " fill="none" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+        <span className="">No hay items en el carrito</span>
+      </div>
+    </div>
+    
+  </div>
+  <div className="flex-none w-1/3 h-14">
+  </div>
+</div>
+
     <Link to='/' className="btn gap-2" > Volver para comprar     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>    </Link>
 
 

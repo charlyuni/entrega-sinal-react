@@ -1,11 +1,12 @@
 import './App.css';
-import DaisyNavBar from './components/DaisyNavBar';
+import DaisyNavBar from './components/Navbar/DaisyNavBar';
 import ItemDetailCointeiner from './components/Shop/ItemDetailContain';
 import ShopContainer from './components/Shop/ShopContainer';
 import { BrowserRouter, BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Carrousel from './components/Shop/Carrousel';
 import {CartContextProvider} from './store/CartContext';
 import CartView from './components/Shop/CartView';
+import Footer from './components/footer/Footer';
 
 
 
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/productos/:itemid" element={<ItemDetailCointeiner />}/>
                 <Route path="/cart" element={<CartView/>}/>
             </Routes>
+            <Footer/>
         </BrowserRouter>
         </CartContextProvider>
       </div>
