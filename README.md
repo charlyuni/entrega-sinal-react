@@ -5,9 +5,9 @@ Para iniciar este **proyecto ejecutar** el siguiente comamdo
 ### `npm start`
 
 
-# Proyecto de React del grupo 31170
+# Proyecto de React de la comision 31170
 
-Puedes ver el proyecto funcionando puede entrar al siguiente link [https://entrega-sinal-react3.vercel.app/cart](#)
+Puedes ver el proyecto funcionando puede entrar al siguiente link [https://entrega-sinal-react3.vercel.app/](#)
 
 # Funcionalidad
 
