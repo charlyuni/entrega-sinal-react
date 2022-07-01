@@ -35,7 +35,7 @@ const DaisyNavBar = () => {
     </div>
   </div>
   <div className="navbar-center">
-<Link to='/' className="btn btn-ghost normal-case text-xl">E-Shop with React</Link>
+<Link to='/' className="btn btn-ghost normal-case text-xl">Macrofarma</Link>
   </div>
   <div className="navbar-end ml-3	">
 

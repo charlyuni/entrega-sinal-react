@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Contador from "./ItemCount";
 import ShopDetailItems from "./ShopDetailItems";
 import useCartContext from "../../store/CartContext";
+import Start from "../start/Start";
 
 
 const ShopDetail = ({producto}) => {
@@ -28,6 +29,7 @@ const ShopDetail = ({producto}) => {
                         <h3>Cantidad:</h3>
                         {isInCart? <Link to='/cart' className="btn btn-warning btn-block btn-sm " >Ir al Carrito </Link> : <Contador  onAdd={hanleonAdd} stock = {producto.stock}/>  }
                         </div>
+                        <Start start = {producto.star}/> {producto.star}
                         <div className="card-actions justify-end w-full">
                         <Link to={`/productos/${producto.id}`} className="btn btn-primary btn-block btn-sm 	">Ver detalle</Link>
                         </div>

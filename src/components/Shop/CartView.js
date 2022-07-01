@@ -5,8 +5,6 @@ import { createBuyOrder} from "../../data/BBDD";
 import Swal from "sweetalert2";
 
 
-
-
 function CartView() {
 
     const {cart, removeFromCart, clearCart,restaItems, calcPriceCart , agregaItems,  } = useCartContext();
